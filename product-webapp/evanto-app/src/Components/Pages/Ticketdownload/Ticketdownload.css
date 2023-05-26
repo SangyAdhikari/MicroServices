@@ -1,0 +1,44 @@
+
+.ticketheader{
+   
+}
+.event_title{
+    border-bottom: 2px dashed #808080;
+}
+.ticket_gray{
+    color: #808080;
+    font-size: 15px;
+}
+.ticket_black{
+    color: #000;
+    font-size: 15px;
+}
+.dwld_btn,
+.btn-check:active+.btn, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:active{
+    background-color: #FFA500 !important;
+    color: #000 !important;
+}
+.dwld_btn:hover{
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color:#FFA500  !important;
+}
+.cancel_btn{
+    background-color: #d90b0b !important;
+    color: #000 !important;
+}
+
+.cancel_btn:hover{
+    background-color: #000 !important;
+    border-color: #000 !important;
+    color:#d90b0b  !important;
+}
+
+@media (max-width: 425px) {
+    .ticket_gray{
+        font-size: 12px;
+    }
+    .ticket_black{
+        font-size: 12px;
+    }
+}

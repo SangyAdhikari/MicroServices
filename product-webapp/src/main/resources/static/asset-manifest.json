@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e2dcb19.css",
+    "main.js": "/static/js/main.21bcda9b.js",
+    "static/js/787.fd3550f9.chunk.js": "/static/js/787.fd3550f9.chunk.js",
+    "static/media/404.png": "/static/media/404.6cbf744d959f8e586b3b.png",
+    "static/media/google-logo.png": "/static/media/google-logo.b31361249fb7518952ee.png",
+    "index.html": "/index.html",
+    "main.4e2dcb19.css.map": "/static/css/main.4e2dcb19.css.map",
+    "main.21bcda9b.js.map": "/static/js/main.21bcda9b.js.map",
+    "787.fd3550f9.chunk.js.map": "/static/js/787.fd3550f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e2dcb19.css",
+    "static/js/main.21bcda9b.js"
+  ]
+}

@@ -1,0 +1,141 @@
+.signup .welcome_column,
+.signup .form_column{
+    min-height: 100vh;
+}
+.signup .btn{
+    background-color: #FFA500;
+    padding:10px;
+    width: 200px;
+}
+.signup .inputcontainer{
+    padding: 0px 0px;
+    border-radius: 6px;
+    /* background-color: #FFA500; */
+}
+.signup .inputcontainer input{
+    background-color: #E6E6E6;
+    padding: 12px 0px 12px 12px;
+    height: 50px;
+    border: none;
+}
+.signup .form-control:focus{
+   
+    box-shadow: 0 0 0 0.25rem transparent;
+    border-color: #E6E6E6 !important;
+    }
+.signup .inputicons{
+
+    padding: 13px 16px 11px;
+
+}
+.signup .form-check-input:checked{
+    background-color: #FFA500 !important;
+    border-color: #FFA500 !important;
+}
+
+.signup .form-check-input:focus{
+    box-shadow: none !important;
+    border-color: #FFA500 !important;
+}
+.signup .inputicon_container{
+    height: 50px;
+    background-color: #FFA500;
+}
+
+.signup .eyeicon_container{
+    height: 50px;
+    background-color: #E6E6E6;
+    padding: 13px 13px 13px 0px;
+    cursor: pointer;
+}
+.signup .eyeicon{
+    font-size: 14px;
+
+}
+.signup .errors{
+    font-size: 14px;
+    height: 20px;
+    color:#d90b0b;
+}
+
+.signup .info_area{
+    position: relative;
+}
+.signup .pass_info{
+    position: absolute;
+    top: 20px;
+    left: -140px;
+    width:200px;
+    font-size: 10px !important;
+    color: #000;
+}
+.signup .btn_login:hover,
+.signup .btn_login:focus{
+    box-shadow: none !important;
+    border-color: none !important;
+    color: #000 !important;
+}
+
+.signup .frst_col{
+    position: relative;
+}
+.signup .frst_col svg{
+    position: absolute;
+    bottom: 0;
+}
+.swal-button{
+    background-color: #FFA500;
+}
+.swal-button:hover{
+    background-color: #FFA500 !important;
+}
+
+.signup .google_btn {
+    background-color: #fff !important;
+    border: 1px solid #000;
+    color: #000;
+}
+.signup .google_btn .icon{
+    color: #ff002e;
+}
+.signup .google_btn .googleicon{
+    width: 30px;
+}
+.signup .backicon{
+    color: #FFA500;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 10;
+    width: 60px;
+
+}
+.signup .backicon .icon{
+    color: #FFA500;
+}
+
+.signup .or_class{
+    position: relative;
+    width: 30px;
+}
+.signup .or_class::before{
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: -100px;
+    width: 95px;
+    height: 1px;
+    background-color: #000;
+}
+
+.signup .or_class::after{
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: -100px;
+    width: 95px;
+    height: 2px;
+    background-color: #000;
+}

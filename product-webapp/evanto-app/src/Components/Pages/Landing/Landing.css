@@ -1,0 +1,107 @@
+.carouselarea{
+    height: 250px;
+    overflow: hidden;
+}
+.carouselitem{
+    height: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+}
+.brandname{
+    /* font-size: 100px; */
+    color: #FFA500;
+}
+.col_header span{
+    color: #FFA500;
+} 
+.parallax_container{
+    min-height: 150px;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.message_card{
+    padding: 10px;
+    height: inherit;
+    background-color: rgba(0,0,0,0.6);
+}
+.eventcard{
+    min-height: 300px;
+    background-size: cover;
+    position: relative;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 0;
+}
+.eventcard p{
+    position: relative;
+    z-index: 1;
+}
+.btn{
+    background-color: #FFA500;
+    min-width: 150px;
+}
+
+.card_layer{
+    background: rgba(0,0,0,0.6);
+}
+.landing_footer{
+    min-height: 150px;
+    background-color: #1a1a1a;
+}
+.socialmedia_container a{
+    color: #000;
+}
+
+.socialmedia_container .socialmedia_icon{
+    background-color: #FFA500;
+    color: #000;
+}
+.socialmedia_container:hover .socialmedia_icon{
+    background-color: #000;
+    color: #FFA500;
+}
+.divider{
+    color: #FFA500;
+}
+.contact_list{
+    font-size: 14px;
+}
+
+.socialmedia_icon{
+    width: 35px;
+    height: 35px;
+    /* background: #fff; */
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.eventcard,
+.carouselarea{
+    opacity: 0;
+    transform: translateY(-10px);
+    animation: loadanimation 1s 1s ease forwards;
+}
+
+.landing_brandlogo{
+    width: 195px;
+}
+
+/* animation */
+@keyframes loadanimation {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+  }

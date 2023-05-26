@@ -1,0 +1,167 @@
+:root {
+  --primary: #ffa500;
+  --white: white;
+}
+
+* {
+  font-family: "Poppins";
+}
+
+.text-orange {
+  color: var(--primary);
+}
+
+.bg-myGray {
+  background-color: #404040;
+}
+
+
+.bg-myOrange {
+  background-color: var(--primary);
+}
+
+.cardHover:hover {
+  transform: scale(1.05);
+}
+
+.sideMenu:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.alignMargin {
+  /* padding: 60px !important; */
+}
+
+.muidrawer-padding{
+  padding-left: 65px;
+}
+
+
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  /* position: relative !important; */
+}
+
+@media (max-width: 425px) {
+  .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper{
+    width: 40px !important;
+  }
+  .css-1r9jet7{
+    padding: 0 !important;
+  }
+
+  .muidrawer-padding{
+    padding-left: 45px;
+  }
+}
+
+
+/* mui working code */
+#app .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+#app .css-bpnhhg .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+
+#create_event label {
+  color: #fff;
+}
+#create_event input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#create_event textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#create_event fieldset {
+  border-color: var(--white) !important;
+}
+
+#theater_list label {
+  color: #fff !important;
+}
+
+#theater_list input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#theater_list textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#theater_list fieldset {
+  border-color: var(--white) !important;
+}
+
+#update_profile label {
+  color: #fff !important;
+}
+
+#update_profile input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#update_profile textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#update_profile fieldset {
+  border-color: var(--white) !important;
+}
+
+div#mui-component-select-Language {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+div#mui-component-select-Event\ Type {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+div#mui-component-select-venue {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+.myDatePicker:focus,
+.myDatePicker:focus {
+  outline: none;
+}
+
+.myDatePicker {
+  border: none;
+  background: #0e0f10;
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid #ffa500;
+  padding: 0.375rem 0.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+
+
+
+/* new select changes */
+
+
+#theater_list .select2-selection__control.css-1a8l56e-control {
+  background-color: #0e0f10 !important;
+}
+
+#theater_list .css-rnfumf-control {
+  background-color: #0e0f10 !important;
+}
+
+#theater_list .css-qc6sy-singleValue {
+  color: #ffa600 !important;
+  padding: 5px;
+}

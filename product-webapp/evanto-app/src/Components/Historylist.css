@@ -1,0 +1,37 @@
+.history_bannerimg{
+    width: 100px;
+}
+.rating_fill{
+    color: #FFA500;
+}
+.history_list{
+    transition: all 0.3s ease;
+}
+
+.history_list:hover{
+    border-top: 1px solid #FFA500;
+    border-bottom: 1px solid #FFA500;
+    background-color: rgba(255,165,0,0.2);
+    transform: translateY(-3px);
+}
+.history_list p{
+    font-size: 14px;
+}
+.booked_event{
+    cursor: pointer;
+}
+.rating_container{
+    min-width: 110px;
+}
+.submit_btn{
+    background-color: #FFA500;
+}
+.submit_btn.showsubmit{
+    opacity: 1;
+    pointer-events: auto;
+}
+.submit_btn.hidesubmit{
+    opacity: 0;
+    pointer-events: none;
+}
+

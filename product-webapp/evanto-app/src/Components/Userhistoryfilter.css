@@ -1,0 +1,56 @@
+#userhistory_filter .react-datepicker{
+    background-color: rgba(0,0,0,0.9);
+    font-family: 'Poppins', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+    border: none;
+}
+#userhistory_filter .react-datepicker__header{
+    background-color:  rgba(0,0,0,0.9);
+}
+
+#userhistory_filter .react-datepicker__day:hover, .react-datepicker__month-text:hover, .react-datepicker__quarter-text:hover, .react-datepicker__year-text:hover{
+    background-color: #FFA500 !important;
+    color:#000 !important;
+}
+#userhistory_filter .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name{
+    color: #FFA500 !important;
+}
+
+#userhistory_filter .react-datepicker__day--keyboard-selected, .react-datepicker__month-text--keyboard-selected, .react-datepicker__quarter-text--keyboard-selected, .react-datepicker__year-text--keyboard-selected{
+    background-color: #fff;
+    color: #000;
+}
+#userhistory_filter .react-datepicker__input-container input{
+    background: transparent;
+    border: 0;
+    text-align: center;
+    color: #fff !important;
+}
+
+#userhistory_filter .react-datepicker__input-container input:focus-visible{
+    border: 0;
+    outline: 0;
+}
+
+#userhistory_filter .react-datepicker__input-container input::placeholder { 
+    color: #fff !important;
+    opacity: 1; 
+    align-items: center;
+  }
+  #userhistory_filter .react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header{
+    color: #fff !important;
+  }
+  #userhistory_filter .react-datepicker__day--selected{
+    background-color: #fff !important;
+    color: #000;
+  }
+  #userhistory_filter .react-datepicker-popper[data-placement^=bottom]{
+    padding-top: 20px;
+  }
+
+  #userhistory_filter .formsearch{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #323232;
+    max-width: 350px;
+}

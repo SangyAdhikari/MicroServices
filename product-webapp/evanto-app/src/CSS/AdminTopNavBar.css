@@ -1,0 +1,44 @@
+.mydropbtn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.mydropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.mydropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: red;
+  min-width: 100px;
+  text-align: center;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.mydropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 4px;
+  font-size: 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.mydropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: red;
+}
+.mydropdown:hover .mydropdown-content {
+  display: block;
+}
+.topnavbar{
+  background-color: #1a1a1a;
+}
+.brandlogo{
+  max-width: 140px;
+}

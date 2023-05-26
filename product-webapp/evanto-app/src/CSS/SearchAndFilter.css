@@ -1,0 +1,29 @@
+#venue_searchbox {
+  background: transparent !important;
+  border: 0 !important;
+  outline: 0 !important;
+  color: #fff;
+}
+
+.myformsearch {
+  padding: 5px 15px;
+  border-radius: 5px;
+  background-color: #323232;
+  width: 250px;
+}
+
+.my_datepicker {
+  border: none;
+  padding: 5px 30px;
+  background: #323232;
+  color: white;
+  border-radius: 5px;
+}
+
+.my_venuepicker {
+  border: none;
+  padding: 12px 30px;
+  background: #323232;
+  color: white;
+  border-radius: 5px;
+}

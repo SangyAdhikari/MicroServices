@@ -1,0 +1,194 @@
+#app .css-xqr4nw-MuiInputBase-root-MuiInput-root:before {
+  border-bottom: 1px solid var(--white) !important;
+}
+#app .css-rqf8pt-MuiInputBase-root-MuiInput-root-MuiSelect-root:before {
+  border-bottom: 1px solid var(--white) !important;
+}
+#app .css-1r74e2h-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white) !important;
+}
+#app .css-18nu0jg-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white) !important;
+}
+#app .css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white) !important;
+}
+.css-1lhc8c0-MuiInputBase-root-MuiInput-root:before {
+  border-color: var(--white) !important;
+}
+
+#app .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white) !important;
+}
+#app .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: var(--white) !important;
+}
+#app .css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: var(--white) !important;
+}
+
+#app
+  .css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input.css-1rxz5jq-MuiSelect-select-MuiInputBase-input-MuiInput-input {
+  color: white !important;
+}
+
+#app .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  color: white !important;
+}
+
+#app .css-1c2i806-MuiFormLabel-root-MuiInputLabel-root {
+  color: var(--white) !important;
+}
+.css-66dh3a-MuiInputBase-input-MuiInput-input {
+  color: white !important;
+}
+
+#app .css-1x51dt5-MuiInputBase-input-MuiInput-input.Mui-disabled {
+  -webkit-text-fill-color: white !important;
+}
+
+#app .css-wk6sd7-MuiInputBase-root-MuiFilledInput-root {
+  /* background-color: #1a1a1a !important; */
+  border-bottom: 1px solid white !important;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+#app .css-1hsz34s-MuiDrawer-docked .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+
+#app .css-2dum1v-MuiDrawer-docked .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+
+#app .rc-time-picker-clear {
+  top: 15px !important;
+}
+
+#app .rc-time-picker-input {
+  padding: 27px;
+  background: #0e0f1000 !important;
+  color: white !important;
+  font-size: 18px;
+  border: navajowhite;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+
+#app .rc-time-picker-clear-icon:after {
+  font-size: 20px;
+}
+
+/* mui working code */
+#app .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+#app .css-bpnhhg .MuiDrawer-paper {
+  background: #1a1a1a !important;
+  box-shadow: 8px 0px 5px #444242 !important;
+}
+
+#create_event label {
+  color: #fff;
+}
+#create_event input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#create_event textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#create_event fieldset {
+  border-color: var(--white) !important;
+}
+
+#theater_list label {
+  color: #fff !important;
+}
+
+#theater_list input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#theater_list textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#theater_list fieldset {
+  border-color: var(--white) !important;
+}
+
+#update_profile label {
+  color: #fff !important;
+}
+
+#update_profile input {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+#update_profile textarea {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+#update_profile fieldset {
+  border-color: var(--white) !important;
+}
+
+div#mui-component-select-Language {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+div#mui-component-select-Event\ Type {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+div#mui-component-select-venue {
+  color: #fff !important;
+  border-bottom: 1px solid #ffa500 !important;
+}
+
+.myDatePicker:focus,
+.myDatePicker:focus {
+  outline: none;
+}
+
+.myDatePicker {
+  border: none;
+  background: #0e0f10;
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid #ffa500;
+  padding: 0.375rem 0.5rem;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+
+
+/* new select changes */
+
+
+#theater_list .select2-selection__control.css-1a8l56e-control {
+  background-color: #0e0f10 !important;
+}
+
+#theater_list .css-rnfumf-control {
+  background-color: #0e0f10 !important;
+}
+
+#theater_list .css-qc6sy-singleValue {
+  color: #ffa600 !important;
+  padding: 5px;
+}

@@ -1,0 +1,156 @@
+.login .welcome_column,
+.login .form_column{
+    height: 100vh;
+}
+.login .btn{
+    background-color: #FFA500;
+    padding:10px;
+    width: 200px;
+}
+.login .inputcontainer{
+    padding: 0px 0px;
+    border-radius: 6px;
+    /* background-color: #FFA500; */
+}
+.login .inputcontainer input{
+    background-color: #E6E6E6;
+    padding: 12px 0px 12px 12px;
+    height: 50px;
+    border: none;
+}
+.login .form-control:focus{
+/* box-shadow: none !important; */
+border-color: #E6E6E6 !important;
+/* background-color: #E6E6E6; */
+}
+.login .inputicons{
+
+    padding: 13px 16px 11px;
+
+}
+.login .form-check-input:checked{
+    background-color: #FFA500 !important;
+    border-color: #FFA500 !important;
+}
+
+.login .form-check-input:focus{
+    box-shadow: none !important;
+    border-color: #FFA500 !important;
+}
+.login .inputicon_container{
+    height: 50px;
+    background-color: #FFA500;
+}
+
+.login .eyeicon_container{
+    height: 50px;
+    background-color: #E6E6E6;
+    padding: 13px 13px 13px 0px;
+    cursor: pointer;
+}
+.login .eyeicon{
+    font-size: 14px;
+
+}
+.login .errors{
+    font-size: 14px;
+    height: 20px;
+    color:#d90b0b;
+}
+
+.login .info_area{
+    position: relative;
+}
+.login .pass_info{
+    position: absolute;
+    top: 20px;
+    left: -140px;
+    width:200px;
+    font-size: 10px !important;
+    color: #000;
+}
+.login .btn_login:hover,
+.login .btn_login:focus{
+    box-shadow: none !important;
+    border-color: none !important;
+    color: #000 !important;
+}
+
+.login .welcome_column{
+    position: relative;
+}
+.login .welcome_column svg{
+    position: absolute;
+    bottom: 0;
+}
+
+.login .google_btn {
+    background-color: #000 !important;
+    border: 1px solid #fff;
+    color: #fff;
+}
+.login .google_btn .icon{
+    color: #ff002e;
+}
+.login .google_btn .googleicon{
+    width: 30px;
+}
+
+input:-internal-autofill-selected {
+    background-color: #E6E6E6 !important;
+}
+input:-webkit-autofill{
+    -webkit-text-fill-color: yellow !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:active,
+input:-webkit-autofill:focus {
+    background-color: #E6E6E6 !important;
+    -webkit-box-shadow: 0 0 0 1000px #E6E6E6 inset !important;
+    -webkit-text-fill-color: #555555 !important;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.login .backicon{
+    color: #FFA500;
+    font-size: 50px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    cursor: pointer;
+    z-index: 10;
+    width: 60px;
+
+}
+.login .backicon .icon{
+    color: #FFA500;
+}
+
+.login .or_class{
+    position: relative;
+    width: 30px;
+}
+.login .or_class::before{
+    content: '';
+    position: absolute;
+    top: 27px;
+    left: -100px;
+    width: 95px;
+    height: 1px;
+    background-color: #fff;
+}
+
+.login .or_class::after{
+    content: '';
+    position: absolute;
+    top: 27px;
+    right: -100px;
+    width: 95px;
+    height: 2px;
+    background-color: #fff;
+}

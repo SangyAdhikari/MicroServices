@@ -1,0 +1,71 @@
+.alllocation_card .states{
+    font-size: 13px;
+}
+.alllocation_card .districts{
+    font-size: 13px;
+}
+.statelist.show{
+   opacity: 1;
+   z-index: 100;
+}
+.statelist.hide{
+   opacity: 0;
+   z-index: -1;
+}
+.citylist.show{
+   opacity: 1;
+   z-index: 100;
+
+}
+.citylist.hide{
+   opacity: 0;
+   z-index: -1;
+}
+.fillstate{
+    color: #FFA500;
+    font-weight: bold;
+}
+.filldistricts{
+    color: #FFA500;
+    font-weight: bold;
+
+}
+
+.alllocation_card{
+    position: absolute;
+   
+}
+.statelist{
+    position: relative;
+}
+.citylist,
+.statelist{
+    background-color: #272727;
+    max-height: 250px;
+    overflow-y: scroll;
+    transition: all 0.5s ease;
+    
+}
+.close_icon{
+    position: sticky;
+    font-size: 23px;
+    color: #FFA500;
+    top: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.citylist::-webkit-scrollbar { width: 0 !important }
+.statelist::-webkit-scrollbar { width: 0 !important }
+
+.citylist{
+    background-color: #fff;
+}
+
+.location_label{
+    font-size: 18px;
+}
+.location_icon{
+    font-size: 15px;
+    color: #FFA500;
+}

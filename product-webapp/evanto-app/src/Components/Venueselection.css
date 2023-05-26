@@ -1,0 +1,81 @@
+#venue_searchbox{
+    background: transparent !important;
+    border: 0 !important;
+    outline: 0 !important;
+    color: #fff;
+}
+.venueselection .formsearch{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #323232;
+    width: 300px;
+}
+.venue_avail_indic{
+    color: #1ed41e;
+    position: relative;
+    padding-left: 20px;
+}
+.venue_avail_indic::before{
+    content:'';
+    position: absolute;
+    top: 8px;
+    left: 0px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #1ed41e;
+}
+.moderate_indicator{
+    color: #f5f50d;
+}
+.moderate_indicator::before{
+    background-color: #f5f50d;
+}
+.soldout_indicator{
+    color: #d90b0b;
+}
+.soldout_indicator::before{
+    background-color: #d90b0b;
+}
+.dropdown-menu li button:hover{
+    background-color: #FFA500;
+}
+.dropdown-toggle-language::after{
+    margin-left: 9px;
+    vertical-align: 2px;
+}
+.date_selector{
+    background-color: #323232;
+    border-radius: 6px;
+    width: 33px;
+    padding: 3px 3px;
+    transition: all 0.3s ease;
+   
+}
+.date_selector .month_indic{
+    font-size: 14px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.date_selector .date_indic{
+    padding: 5px;
+    font-size: 13px;
+    line-height: 13px;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.date_selector.active{
+    background-color: #FFA500;
+}
+.date_selector.active .date_indic{
+    background: #fff;
+  
+    color: #000;
+    border-radius: 50%;
+}
+.venueselection .dropdown-menu{
+    background: rgb(50, 50, 50) !important;
+}
+.venueselection .dropdown-item{
+    color: #fff !important;
+}

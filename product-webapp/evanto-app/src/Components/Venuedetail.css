@@ -1,0 +1,56 @@
+.venue_addr{
+    font-size: 13px;
+}
+.timing_indic{
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+.venue_det{
+    min-width: 310px;
+}
+.timing_indic.timing_available{
+    border-color: #1ed41e;
+    color: #1ed41e;
+}
+.timing_indic.timing_moderate{
+    border-color: #f5f50d;
+    color: #f5f50d;
+}
+.timing_indic.timing_sold{
+    border-color: #d90b0b;
+    color: #d90b0b;
+}
+.venues{
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+.venues:hover{
+    border-top: 1px solid #FFA500;
+    border-bottom: 1px solid #FFA500;
+    background-color: rgba(255,165,0,0.2);
+    transform: translateY(-3px);
+}
+
+.alert-enter {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  .alert-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 300ms, transform 300ms;
+  }
+  .alert-exit {
+    opacity: 1;
+  }
+  .alert-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 300ms, transform 300ms;
+  }
+  

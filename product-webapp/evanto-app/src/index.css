@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ev_primary_clr{
+  color: #FFA500 !important;
+}
+.ev_sc_gray_clr{
+  color: #E6E6E6 !important;
+}
+p{
+  margin: 0;
+}
+.a:-webkit-any-link:focus-visible {
+  outline-offset: 0 !important;
+  outline: 0 !important;
+}

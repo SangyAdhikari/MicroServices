@@ -1,0 +1,45 @@
+/* /Carousel/ */
+.eAyARa,
+.eWjCzc {
+  color: var(--primary) !important;
+}
+
+/* .krmNah {
+  background-color: rgb(255 255 255) !important;
+  box-shadow: 0 0 1px 3px rgb(255 165 0) !important;
+}
+.jhmYzC {
+  background-color: rgb(255 255 255) !important;
+  box-shadow: 0 0 1px 2px rgb(255 255 255) !important;
+}
+
+.eWjCzc:hover:enabled, .eWjCzc:focus:enabled{
+  color: #000 !important;
+  background-color: rgb(255 165 0) !important;
+  box-shadow: 0 0 2px 0 #333;
+} */
+
+.home .formsearch{
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #323232;
+}
+#home .rec-carousel button{
+  color: #ffa500;
+}
+
+
+#home .rec-pagination .rec-dot{
+  background-color: rgb(255 255 255) !important;
+  box-shadow: 0 0 1px 2px rgb(255 255 255) !important;
+}
+#home .rec-pagination .rec-dot.rec-dot_active{
+  background-color: rgb(255 255 255) !important;
+  box-shadow: 0 0 1px 3px rgb(255 165 0) !important;
+}
+
+#home .rec-carousel button:hover:enabled, #home .rec-carousel button:focus:enabled{
+  color: #000 !important;
+  background-color: rgb(255 165 0) !important;
+  box-shadow: 0 0 2px 0 #333;
+}
